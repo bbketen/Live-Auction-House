@@ -1,6 +1,6 @@
 # AuctionApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4. In this project every new opening client is one of the auction participant and new user with web socket. Second-price auction rule applies in this auction.
 
 ## Server side
 
