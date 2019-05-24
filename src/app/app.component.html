@@ -1,0 +1,27 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>{{title}}</h1>
+<table style="width:100%">
+  <td>
+    <div class='bigBox'>
+        <div>
+          <p id="{{userName}}">{{userName}}</p>
+          <input type="number" min="0" step="1" #user1 id="{{userName}}" name="{{userName}}">
+          <button id="send" (click)="sendMessage(userName,user1.value)">Bid</button>
+        </div>
+    </div>
+  </td>
+</table>
+
+
+<div class='bigBox'>
+  Current Highest Bid:  <p id="highestBid" name="highestBid" #highestBid>{{Bid}}</p>
+  <br>
+  Current Hishest Bidder:  <p id="highestBidder" name="highestBidder">{{Bidder}}</p>
+  <br>
+  Deadline: <p id="deadline" class="deadline" name="deadline">{{deadline}}</p>
+  <p>{{timer}} Seconds</p>
+  <button id="refresh" (click)="refresh()">Refresh</button>
+</div>
+
+
+<router-outlet></router-outlet>
