@@ -24,7 +24,7 @@
     "body-parser": "^1.18.3",
     "core-js": "^2.5.4",
     "jasmine": "^3.3.1",
-    "mongoose": "^5.4.19",
+    "mongoose": "^5.7.5",
     "ngx-socket-io": "^2.1.1",
     "rxjs": "~6.3.3",
     "rxjs-compat": "~6.3.3",
